@@ -76,7 +76,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'realTimeProject.wsgi.application'
 
-
+API_VERSION = env('API_VERSION')
 
 # Rest Framework
 REST_FRAMEWORK = {
